@@ -29,9 +29,16 @@ public class StudentConfig {
                     LocalDate.of(1999, Month.NOVEMBER.firstMonthOfQuarter(), 9)
 
             );
+            Student vidath = new Student(
+                    "Vidath",
+                    20,
+                    "vidath2004@gmail.com",
+                    LocalDate.of(2004, Month.JANUARY.firstMonthOfQuarter(), 2)
+
+            );
 
             repository.saveAll(
-                    List.of(yasith,hashan)
+                    List.of(yasith,hashan,vidath)
             );
         };
     }
