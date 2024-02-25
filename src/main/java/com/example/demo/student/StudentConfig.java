@@ -28,8 +28,9 @@ public class StudentConfig {
 
             );
 
+
             repository.saveAll(
-                    List.of(yasith,hashan,vidath)
+                    List.of(yasith,hashan)
             );
         };
     }
